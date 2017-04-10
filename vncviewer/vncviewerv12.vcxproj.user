@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>id:1234567890 -proxy 61.252.138.246:5901 -password 1234</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>192.168.0.32:2800 -nostatus -password !R[U]N_# -caption rmc57eb1f09af138 -autoreconnect 5 -normalcursor</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>192.168.0.16:5900 -nostatus -password 1234 -title 1번원격 -caption rmc56558262bc8c0 -noauto -fullcolors -encoding ultra2 -compresslevel 8 -quality 6 -dsmplugin securevncplugin.dsm</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>id:65234 -proxy repeater2.runremote.net:7902 -nostatus -password runremote!daebak@cheer$$ -caption rmc56a5e9e19ae8a -noauto -fullcolors -encoding ultra2 -compresslevel 5 -quality 7 -normalcursor -notoolbar -dsmplugin securevncplugin.dsm -title 1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

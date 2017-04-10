@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{258376e1-0a33-4835-a52d-42927254fbb9}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d67effc5-3b9e-41e2-9c15-ee3934d042c4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b12edee1-d3d4-4fd1-99ea-87bccd0f1dbf}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\B46.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\both.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\closeup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dir.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\drive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\front.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hoch.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_tray.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_tray_disabled.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\l1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\l2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\maximizeup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\minimizeup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\none.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\pindown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stat\pinup.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\quer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tango_l.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tango_lx.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tango_s.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Tango_sx.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vnc32.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vnc64.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vncviewer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursorsel.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Finger.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nocursor.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\vncviewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

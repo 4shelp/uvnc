@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c1afd88e-2cdf-44fa-84b4-f24aac0e3334}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bc56eb42-198b-4372-8be2-d44e98cd823b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1bd3aa86-d2a5-4e8f-9769-2cf605f933f3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AuthPanel.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ButtonPanel.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clipboardframe.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\descipher.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DH.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Finger.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ftpframe$strcomp.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FTPFrame.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\optionsframe.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RecordingFrame.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rfbproto.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SessionRecorder.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vnccanvas.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vncviewer.class">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\vncviewer.jar">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\runas.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vnc-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\world3a.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winvnc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
